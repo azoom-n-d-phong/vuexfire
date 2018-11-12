@@ -1,11 +1,17 @@
 {
-  "extends": [
-    "posva",
-  ],
-    "env": {
-      "amd": true
-    },
-    "rules": {
-      "no-new": 0
-    }
+  "extends": ["plugin:prettier/recommended"],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-console": 0,
+    "no-debugger": 0,
+    "no-new": 0
+  }
 }
