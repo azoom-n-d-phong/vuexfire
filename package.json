@@ -1,11 +1,11 @@
 {
-  "name": "vuexfire",
-  "version": "3.0.0-alpha.5",
+  "name": "vuexfirestore",
+  "version": "0.0.1",
   "description": "Firestore binding for Vuex",
-  "main": "dist/vuexfire.esm.js",
-  "module": "dist/vuexfire.esm.js",
-  "unpkg": "dist/vuexfire.js",
-  "browser": "dist/vuexfire.esm.js",
+  "main": "dist/vuexfirestore.common.js",
+  "module": "dist/vuexfirestore.esm.js",
+  "unpkg": "dist/vuexfirestore.js",
+  "browser": "dist/vuexfirestore.esm.js",
   "files": [
     "src",
     "dist",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/posva/vuexfire.git"
+    "url": "git+https://github.com/vuexfirestore/vuexfirestore.git"
   },
   "keywords": [
     "vuex",
@@ -47,24 +47,22 @@
     "database",
     "google",
     "firebase",
-    "redux",
     "firestore",
     "store",
-    "bind",
-    "opinionated"
+    "bind"
   ],
   "peerDependencies": {
     "firebase": ">= 4.0.0"
   },
   "author": {
-    "name": "Eduardo San Martin Morote",
-    "email": "posva13@gmail.com"
+    "name": "",
+    "email": ""
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/posva/vuexfire/issues"
+    "url": "https://github.com/vuexfirestore/vuexfirestore/issues"
   },
-  "homepage": "https://github.com/posva/vuexfire#readme",
+  "homepage": "https://github.com/vuexfirestore/vuexfirestore#readme",
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "codecov": "^3.0.1",
